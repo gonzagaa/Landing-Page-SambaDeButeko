@@ -27,8 +27,8 @@
   margin-bottom: 6rem;
 }
 
-.logo img {
-  width: 6rem;
+.wrapper .logo img {
+  width: 5.5rem;
 }
 
 .col-a .logo img {
@@ -529,6 +529,10 @@ footer .social-links {
 #about .col-b img:hover {
   transform: rotateZ(-360deg);
   transform: scale(1.1);
+}
+
+#home .col-b img {
+  filter: drop-shadow(5px 0px 5px #111);
 }
 
 /*=== RESPONSIVO =================================*/
