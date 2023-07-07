@@ -29,6 +29,8 @@
 
 .wrapper .logo img {
   width: 5.5rem;
+  filter: saturate(25);
+  filter: brightness(0.7);
 }
 
 .col-a .logo img {
