@@ -510,6 +510,10 @@ footer .social-links {
   justify-content: flex-start;
 }
 
+footer .col-a p a {
+  color: #000;
+}
+
 /* BACK TO TOP */
 #backToTopButton {
   position: fixed;
