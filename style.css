@@ -14,7 +14,7 @@
   --brand-beige: hsl(39, 100%, 97%);
   --brand-light: hsl(calc(var(--hue) - 1), 23%, 89%);
   --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
-  --brand-dark: hsl(var(--hue), 50%, 41%);
+  --brand-dark: hsl(var(--hue), 65%, 47%);
 
   --bg-light: hsl(180, 14%, 97%);
 
@@ -29,8 +29,6 @@
 
 .wrapper .logo img {
   width: 5.5rem;
-  filter: saturate(25);
-  filter: brightness(0.7);
 }
 
 .col-a .logo img {
@@ -208,9 +206,7 @@ nav .wrapper {
   justify-content: space-between;
 }
 
-nav.scroll {
-  background: var(--primary-color);
-}
+
 
 nav button {
   background: none;
@@ -450,6 +446,16 @@ body.menu-expanded button path {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+}
+
+#schedule .col-a .content ul a {
+  text-decoration: none;
+  color: var(--headline);
+  opacity: 0.7;
+}
+
+#schedule .col-a .content ul a:hover {
+  opacity: 1;
 }
 
 /*=== CONTACT =================================*/
